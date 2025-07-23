@@ -2,7 +2,7 @@
 	"name": "@helpdice/utils",
 	"type": "module",
 	"description": "A library of utility functions to support quick development that provides developers with helping hand.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"private": false,
