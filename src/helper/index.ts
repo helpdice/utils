@@ -1,11 +1,11 @@
 // import Currencies from './currencies.json';
-import { Countries as countries } from "./countries+states+cities.js";
+// import countries from "./countries+states+cities.json";
 
 export function fetchCountryAPI(
 	country?: string | null,
 	state?: string | null,
 ) {
-	const Countries: any[] = countries as any[];
+	const Countries: any[] = [] as any[];
 	if (country) {
 		const _country = Countries.find(
 			(cnty: { name: any }) => cnty.name === country,
