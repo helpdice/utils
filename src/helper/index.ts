@@ -1,6 +1,3 @@
-// import Currencies from './currencies.json';
-// import countries from "./countries+states+cities.json";
-
 export function fetchCountryAPI(
 	country?: string | null,
 	state?: string | null,
