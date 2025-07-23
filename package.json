@@ -1,0 +1,42 @@
+{
+	"name": "@helpdice/utils",
+	"type": "module",
+	"description": "A library of utility functions to support quick development that provides developers with helping hand.",
+	"version": "0.1.0",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/helpdice/utils.git"
+	},
+	"homepage": "https://sdk.helpdice.com",
+	"files": [
+		"dist/**/*"
+	],
+	"scripts": {
+		"build": "tsc",
+		"check": "biome check --write ./src",
+		"workflow:check": "biome check ./src",
+		"release": "pnpm run build && changeset publish"
+	},
+	"author": "Helpdice Team",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@changesets/cli": "^2.27.7",
+		"@total-typescript/tsconfig": "^1.0.4",
+		"@types/crypto-js": "^4.2.2",
+		"@types/js-cookie": "^3.0.6",
+		"typescript": "^5.5.3"
+	},
+	"bugs": {
+		"url": "https://github.com/helpdice/utils/issues"
+	},
+	"dependencies": {
+		"crypto-js": "^4.2.0",
+		"fs": "^0.0.1-security",
+		"fs-extra": "^11.3.0",
+		"vitest": "^3.2.4"
+	},
+	"packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
+}

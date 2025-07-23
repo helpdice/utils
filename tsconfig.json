@@ -1,0 +1,12 @@
+{
+	"extends": "@total-typescript/tsconfig/tsc/dom/library",
+	"compilerOptions": {
+		"target": "esnext",
+		"moduleResolution": "nodenext",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"strict": true,
+		"rootDir": "src",
+		"outDir": "dist"
+	}
+}
